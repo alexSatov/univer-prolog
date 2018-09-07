@@ -1,0 +1,1 @@
+brother(X,Y):-male(X),male(Y),X\=Y,parent(A,B,X),parent(C,D,Y),(A==C;B==D).
